@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubyzip", "~> 2.3"
   spec.add_dependency "csv"
 
-  spec.add_development_dependency "rspec-rails", "~> 7.0"
+  spec.add_development_dependency "rspec-rails", "~> 8.0"
   spec.add_development_dependency "webmock", "~> 3.19"
   spec.add_development_dependency "sqlite3", "~> 2.0"
 end
