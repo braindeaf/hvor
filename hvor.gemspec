@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 8.0.4"
-  spec.add_dependency "rubyzip", "~> 2.3"
+  spec.add_dependency "rubyzip", ">= 2.3", "< 4.0"
   spec.add_dependency "csv"
 
   spec.add_development_dependency "rspec-rails", "~> 7.0"
